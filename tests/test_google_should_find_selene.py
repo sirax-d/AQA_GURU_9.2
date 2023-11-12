@@ -1,5 +1,3 @@
-import pytest
-from selenium import webdriver
 from selene.support.shared import browser, config
 from selene import be, have
 
