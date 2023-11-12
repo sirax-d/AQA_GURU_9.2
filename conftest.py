@@ -1,7 +1,7 @@
 import pytest
 from selene.support.shared import browser, config
 
-@pytest.fixture(scope="module")
+@pytest.fixture(scope="function")
 def start_settings_google():
     config.window_width = 1600
     config.window_height = 1280
